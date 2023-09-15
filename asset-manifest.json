@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zun3007work/robofriends/static/css/main.7c18d2b1.css",
-    "main.js": "/zun3007work/robofriends/static/js/main.52d42da5.js",
-    "static/js/787.ab12092d.chunk.js": "/zun3007work/robofriends/static/js/787.ab12092d.chunk.js",
-    "static/media/SpaceArmor-vmlv4.woff": "/zun3007work/robofriends/static/media/SpaceArmor-vmlv4.55d4f1aec209c925ecfe.woff",
-    "index.html": "/zun3007work/robofriends/index.html",
-    "main.7c18d2b1.css.map": "/zun3007work/robofriends/static/css/main.7c18d2b1.css.map",
-    "main.52d42da5.js.map": "/zun3007work/robofriends/static/js/main.52d42da5.js.map",
-    "787.ab12092d.chunk.js.map": "/zun3007work/robofriends/static/js/787.ab12092d.chunk.js.map"
+    "main.css": "/static/css/main.5ea19168.css",
+    "main.js": "/static/js/main.79f6f0a6.js",
+    "static/js/787.32032a02.chunk.js": "/static/js/787.32032a02.chunk.js",
+    "static/media/SpaceArmor-vmlv4.woff": "/static/media/SpaceArmor-vmlv4.55d4f1aec209c925ecfe.woff",
+    "index.html": "/index.html",
+    "main.5ea19168.css.map": "/static/css/main.5ea19168.css.map",
+    "main.79f6f0a6.js.map": "/static/js/main.79f6f0a6.js.map",
+    "787.32032a02.chunk.js.map": "/static/js/787.32032a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c18d2b1.css",
-    "static/js/main.52d42da5.js"
+    "static/css/main.5ea19168.css",
+    "static/js/main.79f6f0a6.js"
   ]
 }
