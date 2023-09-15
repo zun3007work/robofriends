@@ -2,6 +2,7 @@ import React from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import './App.css';
+import ErrorBoundary from '../components/ErrorBoundary';
 import Scroll from '../components/Scroll';
 // import { robots } from './robots';
 
@@ -36,13 +37,15 @@ class App extends React.Component {
       </div>
     ) : (
       <React.Fragment>
-        <div className="tc">
-          <h1>RoboFriends</h1>
-          <SearchBox onSearchChange={this.onSearchChange} />
-          <Scroll>
-            <CardList robots={robotsField} />
-          </Scroll>
-        </div>
+        <ErrorBoundary>
+          <div className="tc">
+            <h1>RoboFriends</h1>
+            <SearchBox onSearchChange={this.onSearchChange} />
+            <Scroll>
+              <CardList robots={robotsField} />
+            </Scroll>
+          </div>
+        </ErrorBoundary>
       </React.Fragment>
     );
   }
