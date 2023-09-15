@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('SPACE ARMOR Regular'),
-    url('../public/SpaceArmor-vmlv4.woff') format('woff');
+    url('./SpaceArmor-vmlv4.woff') format('woff');
 }
 
 h1 {
